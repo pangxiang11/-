@@ -1,21 +1,20 @@
 //
 //  AppDelegate.m
-//  数据库
+//  数据库练习第5天
 //
 //  Created by qianfeng on 14-10-13.
 //  Copyright (c) 2014年 ___FULLUSERNAME___. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-
+    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
     [self.window makeKeyAndVisible];
     return YES;
 }
