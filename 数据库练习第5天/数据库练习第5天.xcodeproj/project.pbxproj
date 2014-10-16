@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC257FE519EF66A40007FB7B /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC257FE319EF66A40007FB7B /* AlbumViewController.m */; };
+		BC257FE619EF66A40007FB7B /* AlbumViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC257FE419EF66A40007FB7B /* AlbumViewController.xib */; };
+		BC257FEA19EF67B30007FB7B /* MYTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC257FE919EF67B30007FB7B /* MYTableView.m */; };
+		BC257FEC19EF95D50007FB7B /* category_Game.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC257FEB19EF95D50007FB7B /* category_Game.jpg */; };
 		BC975FDF19EBBC720012C611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC975FDE19EBBC720012C611 /* Foundation.framework */; };
 		BC975FE119EBBC720012C611 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC975FE019EBBC720012C611 /* CoreGraphics.framework */; };
 		BC975FE319EBBC720012C611 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC975FE219EBBC720012C611 /* UIKit.framework */; };
@@ -19,6 +23,18 @@
 		BC975FFA19EBBC720012C611 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC975FE219EBBC720012C611 /* UIKit.framework */; };
 		BC97600219EBBC720012C611 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC97600019EBBC720012C611 /* InfoPlist.strings */; };
 		BC97600419EBBC720012C611 /* ______5_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97600319EBBC720012C611 /* ______5_Tests.m */; };
+		BC97600F19EBBCAC0012C611 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97600E19EBBCAC0012C611 /* ViewController.m */; };
+		BC97601719EBBD3D0012C611 /* AddEditeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97601519EBBD3D0012C611 /* AddEditeViewController.m */; };
+		BC97601819EBBD3D0012C611 /* AddEditeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC97601619EBBD3D0012C611 /* AddEditeViewController.xib */; };
+		BC97601C19EBC2760012C611 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97601B19EBC2760012C611 /* User.m */; };
+		BC97602019EBE94E0012C611 /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97601F19EBE94E0012C611 /* DataBaseManager.m */; };
+		BC97602C19EBE9EA0012C611 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97602319EBE9EA0012C611 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BC97602D19EBE9EA0012C611 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97602519EBE9EA0012C611 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BC97602E19EBE9EA0012C611 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97602719EBE9EA0012C611 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BC97602F19EBE9EA0012C611 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97602919EBE9EA0012C611 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BC97603019EBE9EA0012C611 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BC97602B19EBE9EA0012C611 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BC97603219EBEBE40012C611 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC97603119EBEBE40012C611 /* libsqlite3.dylib */; };
+		BC99001419EEAF0800355245 /* touXiang.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99001319EEAF0800355245 /* touXiang.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC257FE219EF66A40007FB7B /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		BC257FE319EF66A40007FB7B /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
+		BC257FE419EF66A40007FB7B /* AlbumViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlbumViewController.xib; sourceTree = "<group>"; };
+		BC257FE819EF67B30007FB7B /* MYTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTableView.h; sourceTree = "<group>"; };
+		BC257FE919EF67B30007FB7B /* MYTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTableView.m; sourceTree = "<group>"; };
+		BC257FEB19EF95D50007FB7B /* category_Game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = category_Game.jpg; path = ../../../../Downloads/catePic/category_Game.jpg; sourceTree = "<group>"; };
 		BC975FDB19EBBC720012C611 /* 数据库练习第5天.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "数据库练习第5天.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC975FDE19EBBC720012C611 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC975FE019EBBC720012C611 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +70,27 @@
 		BC975FFF19EBBC720012C611 /* 数据库练习第5天Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "数据库练习第5天Tests-Info.plist"; sourceTree = "<group>"; };
 		BC97600119EBBC720012C611 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC97600319EBBC720012C611 /* ______5_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______5_Tests.m"; sourceTree = "<group>"; };
+		BC97600D19EBBCAC0012C611 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "数据库练习第5天/ViewController.h"; sourceTree = "<group>"; };
+		BC97600E19EBBCAC0012C611 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "数据库练习第5天/ViewController.m"; sourceTree = "<group>"; };
+		BC97601419EBBD3D0012C611 /* AddEditeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEditeViewController.h; sourceTree = "<group>"; };
+		BC97601519EBBD3D0012C611 /* AddEditeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEditeViewController.m; sourceTree = "<group>"; };
+		BC97601619EBBD3D0012C611 /* AddEditeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEditeViewController.xib; sourceTree = "<group>"; };
+		BC97601A19EBC2760012C611 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		BC97601B19EBC2760012C611 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		BC97601E19EBE94E0012C611 /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		BC97601F19EBE94E0012C611 /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		BC97602219EBE9EA0012C611 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		BC97602319EBE9EA0012C611 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		BC97602419EBE9EA0012C611 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		BC97602519EBE9EA0012C611 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		BC97602619EBE9EA0012C611 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		BC97602719EBE9EA0012C611 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		BC97602819EBE9EA0012C611 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		BC97602919EBE9EA0012C611 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		BC97602A19EBE9EA0012C611 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		BC97602B19EBE9EA0012C611 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		BC97603119EBEBE40012C611 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		BC99001319EEAF0800355245 /* touXiang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = touXiang.png; path = ../../../../../Downloads/touXiang.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC97603219EBEBE40012C611 /* libsqlite3.dylib in Frameworks */,
 				BC975FE119EBBC720012C611 /* CoreGraphics.framework in Frameworks */,
 				BC975FE319EBBC720012C611 /* UIKit.framework in Frameworks */,
 				BC975FDF19EBBC720012C611 /* Foundation.framework in Frameworks */,
@@ -74,9 +118,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC257FE719EF677D0007FB7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC257FE819EF67B30007FB7B /* MYTableView.h */,
+				BC257FE919EF67B30007FB7B /* MYTableView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		BC975FD219EBBC720012C611 = {
 			isa = PBXGroup;
 			children = (
+				BC257FEB19EF95D50007FB7B /* category_Game.jpg */,
+				BC257FE719EF677D0007FB7B /* Views */,
+				BC97601D19EBE9110012C611 /* DataBaseManager */,
+				BC97601919EBC2300012C611 /* Models */,
+				BC97601019EBBCDA0012C611 /* ViewControllers */,
 				BC975FE419EBBC720012C611 /* 数据库练习第5天 */,
 				BC975FFD19EBBC720012C611 /* 数据库练习第5天Tests */,
 				BC975FDD19EBBC720012C611 /* Frameworks */,
@@ -96,6 +154,7 @@
 		BC975FDD19EBBC720012C611 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC97603119EBEBE40012C611 /* libsqlite3.dylib */,
 				BC975FDE19EBBC720012C611 /* Foundation.framework */,
 				BC975FE019EBBC720012C611 /* CoreGraphics.framework */,
 				BC975FE219EBBC720012C611 /* UIKit.framework */,
@@ -118,6 +177,8 @@
 		BC975FE519EBBC720012C611 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC99001219EEAEAB00355245 /* imageSources */,
+				BC97602119EBE9EA0012C611 /* fmdb */,
 				BC975FE619EBBC720012C611 /* 数据库练习第5天-Info.plist */,
 				BC975FE719EBBC720012C611 /* InfoPlist.strings */,
 				BC975FEA19EBBC720012C611 /* main.m */,
@@ -142,6 +203,65 @@
 				BC97600019EBBC720012C611 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC97601019EBBCDA0012C611 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC97600D19EBBCAC0012C611 /* ViewController.h */,
+				BC97600E19EBBCAC0012C611 /* ViewController.m */,
+				BC97601419EBBD3D0012C611 /* AddEditeViewController.h */,
+				BC97601519EBBD3D0012C611 /* AddEditeViewController.m */,
+				BC97601619EBBD3D0012C611 /* AddEditeViewController.xib */,
+				BC257FE219EF66A40007FB7B /* AlbumViewController.h */,
+				BC257FE319EF66A40007FB7B /* AlbumViewController.m */,
+				BC257FE419EF66A40007FB7B /* AlbumViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BC97601919EBC2300012C611 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC97601A19EBC2760012C611 /* User.h */,
+				BC97601B19EBC2760012C611 /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BC97601D19EBE9110012C611 /* DataBaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				BC97601E19EBE94E0012C611 /* DataBaseManager.h */,
+				BC97601F19EBE94E0012C611 /* DataBaseManager.m */,
+			);
+			name = DataBaseManager;
+			sourceTree = "<group>";
+		};
+		BC97602119EBE9EA0012C611 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				BC97602219EBE9EA0012C611 /* FMDatabase.h */,
+				BC97602319EBE9EA0012C611 /* FMDatabase.m */,
+				BC97602419EBE9EA0012C611 /* FMDatabaseAdditions.h */,
+				BC97602519EBE9EA0012C611 /* FMDatabaseAdditions.m */,
+				BC97602619EBE9EA0012C611 /* FMDatabasePool.h */,
+				BC97602719EBE9EA0012C611 /* FMDatabasePool.m */,
+				BC97602819EBE9EA0012C611 /* FMDatabaseQueue.h */,
+				BC97602919EBE9EA0012C611 /* FMDatabaseQueue.m */,
+				BC97602A19EBE9EA0012C611 /* FMResultSet.h */,
+				BC97602B19EBE9EA0012C611 /* FMResultSet.m */,
+			);
+			name = fmdb;
+			path = "../../../../../Downloads/数据库(资料)/fmdb";
+			sourceTree = "<group>";
+		};
+		BC99001219EEAEAB00355245 /* imageSources */ = {
+			isa = PBXGroup;
+			children = (
+				BC99001319EEAF0800355245 /* touXiang.png */,
+			);
+			name = imageSources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +341,10 @@
 			files = (
 				BC975FE919EBBC720012C611 /* InfoPlist.strings in Resources */,
 				BC975FF119EBBC720012C611 /* Images.xcassets in Resources */,
+				BC99001419EEAF0800355245 /* touXiang.png in Resources */,
+				BC257FEC19EF95D50007FB7B /* category_Game.jpg in Resources */,
+				BC97601819EBBD3D0012C611 /* AddEditeViewController.xib in Resources */,
+				BC257FE619EF66A40007FB7B /* AlbumViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +363,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC97601C19EBC2760012C611 /* User.m in Sources */,
+				BC97600F19EBBCAC0012C611 /* ViewController.m in Sources */,
+				BC97602019EBE94E0012C611 /* DataBaseManager.m in Sources */,
+				BC97602C19EBE9EA0012C611 /* FMDatabase.m in Sources */,
+				BC257FEA19EF67B30007FB7B /* MYTableView.m in Sources */,
+				BC97602E19EBE9EA0012C611 /* FMDatabasePool.m in Sources */,
+				BC97602F19EBE9EA0012C611 /* FMDatabaseQueue.m in Sources */,
 				BC975FEF19EBBC720012C611 /* AppDelegate.m in Sources */,
+				BC97601719EBBD3D0012C611 /* AddEditeViewController.m in Sources */,
+				BC257FE519EF66A40007FB7B /* AlbumViewController.m in Sources */,
+				BC97603019EBE9EA0012C611 /* FMResultSet.m in Sources */,
 				BC975FEB19EBBC720012C611 /* main.m in Sources */,
+				BC97602D19EBE9EA0012C611 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +572,7 @@
 				BC97600919EBBC720012C611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC97600A19EBBC720012C611 /* Build configuration list for PBXNativeTarget "数据库练习第5天Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +581,7 @@
 				BC97600C19EBBC720012C611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
